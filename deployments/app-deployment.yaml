@@ -28,5 +28,6 @@ spec:
     app: wil-app
   ports:
   - protocol: TCP
+    nodePort: 30100
     port: 80
     targetPort: 8888
